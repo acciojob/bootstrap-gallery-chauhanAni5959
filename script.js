@@ -1,1 +1,3 @@
-//your JS code here. If required.
+function showImage(element) {
+  document.getElementById('modalImage').src = element.src;
+}
